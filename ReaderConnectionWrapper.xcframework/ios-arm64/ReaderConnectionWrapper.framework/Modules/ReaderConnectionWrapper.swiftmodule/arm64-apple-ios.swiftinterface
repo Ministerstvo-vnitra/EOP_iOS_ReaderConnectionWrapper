@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ReaderConnectionWrapper
+import CardConnectionWrapper
+import CoreBluetooth
+import Foundation
+@_exported import ReaderConnectionWrapper
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum SmartCardReaderBatteryStatus {
+  case low
+  case high
+  case specific(percentage: Swift.Double)
+}
+public enum ReaderConnectionServiceState {
+  case ready
+  case inactive
+  public static func == (a: ReaderConnectionWrapper.ReaderConnectionServiceState, b: ReaderConnectionWrapper.ReaderConnectionServiceState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol ReaderConnectionServiceDelegate : AnyObject {
+  func didConnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func didDisconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func didUpdate(service: any ReaderConnectionWrapper.ReaderConnectionServiceProtocol, state: ReaderConnectionWrapper.ReaderConnectionServiceState)
+  func didPairWith(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, connected: Swift.Bool)
+  func didDiscover(newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func didDiscover(knownReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func didUpdate(knownReaders: [any ReaderConnectionWrapper.SmartCardReaderProtocol])
+  func didInsertCard(connection: any CardConnectionWrapper.ProvidingCardConnection, on reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func didRemoveCard(on reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+}
+extension ReaderConnectionWrapper.ReaderConnectionServiceDelegate {
+  public func didConnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func didDisconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func didUpdate(service: any ReaderConnectionWrapper.ReaderConnectionServiceProtocol, state: ReaderConnectionWrapper.ReaderConnectionServiceState)
+  public func didPairWith(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, connected: Swift.Bool)
+  public func didDiscover(newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func didDiscover(knownReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func didUpdate(knownReaders: [any ReaderConnectionWrapper.SmartCardReaderProtocol])
+  public func didInsertCard(connection: any CardConnectionWrapper.ProvidingCardConnection, on reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func didRemoveCard(on reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+}
+public protocol SpecificReaderConnectionServiceProtocol : ReaderConnectionWrapper.Manufactured, ReaderConnectionWrapper.ReaderConnectionServiceProtocol {
+  associatedtype ReaderImplementation : ReaderConnectionWrapper.SmartCardReaderProtocol
+  var state: ReaderConnectionWrapper.ReaderConnectionServiceState { get }
+  func connect(reader: Self.ReaderImplementation)
+  func disconnect(reader: Self.ReaderImplementation)
+  func pair(reader: Self.ReaderImplementation)
+  func unpair(reader: Self.ReaderImplementation, onCompletion: (() -> Swift.Void)?)
+}
+extension ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol {
+  public func connect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func disconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func pair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  public func unpair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, onCompletion: (() -> Swift.Void)?)
+}
+public protocol ReaderConnectionServiceProtocol : AnyObject {
+  var delegate: (any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)? { get set }
+  var knownReaders: [any ReaderConnectionWrapper.SmartCardReaderProtocol] { get }
+  func connect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func disconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func pair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  func unpair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, onCompletion: (() -> Swift.Void)?)
+  func scanReadersForPairing(untilStopped: Swift.Bool)
+  func scanReadersForConnecting(untilStopped: Swift.Bool)
+  func stopScanning()
+}
+public protocol Manufactured {
+  var manufacturer: Swift.String { get }
+}
+public enum ReaderConnectionState {
+  case connected(cardConnectionProvider: (any CardConnectionWrapper.ProvidingCardConnection)?)
+  case disconnected
+}
+@objc open class SpecificReaderConnectionServiceBase : ObjectiveC.NSObject, ReaderConnectionWrapper.Manufactured {
+  public enum ServiceEvent : Swift.CustomStringConvertible {
+    case noReaderConnectedWhileDisconnecting
+    case readerIsNotConnectedWhileDisconnecting(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case disconnecting(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case disconnectingBeforeConnecting(currentlyConnected: any ReaderConnectionWrapper.SmartCardReaderProtocol, newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case disconnectingBeforePairing(currentlyConnected: any ReaderConnectionWrapper.SmartCardReaderProtocol, newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case connectionAttempt(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case pairingAttempt(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case unpairReaderNotKnown(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case unpairing(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case stopScanningNotAvailableWhileInactive
+    case stoppingScanning
+    case scanningAlreadyInProgress
+    case scanningForPairing
+    case scanningForConnecting
+    case cardRemovedFrom(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case cardInsertedOn(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case discoveredNew(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case discoveredKnown(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case disconnected(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case pairedWith(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    case connectedTo(any ReaderConnectionWrapper.SmartCardReaderProtocol)
+    public var description: Swift.String {
+      get
+    }
+  }
+  public var manufacturer: Swift.String
+  public var serviceQueue: Dispatch.DispatchQueue
+  public var centralService: CoreBluetooth.CBCentralManager {
+    get
+    set
+  }
+  public init(manufacturer: Swift.String)
+  public func log(_ string: Swift.String)
+  public func log(event: ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent)
+  open func onCentralManagerPoweredOn()
+  open func onCentralManagerPoweredOff()
+  @objc deinit
+}
+extension ReaderConnectionWrapper.SpecificReaderConnectionServiceBase : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+}
+public protocol SmartCardReaderProtocol : AnyObject, ReaderConnectionWrapper.Manufactured, Swift.CustomStringConvertible {
+  var name: Swift.String { get set }
+  var model: Swift.String { get }
+  var lastSeen: Foundation.Date { get }
+  var batteryStatus: ReaderConnectionWrapper.SmartCardReaderBatteryStatus? { get }
+  var state: ReaderConnectionWrapper.ReaderConnectionState { get }
+}
+extension ReaderConnectionWrapper.SmartCardReaderProtocol {
+  public var cardConnectionProvider: (any CardConnectionWrapper.ProvidingCardConnection)? {
+    get
+  }
+  public var isConnected: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias ProvidingCardConnection = CardConnectionWrapper.ProvidingCardConnection
+extension ReaderConnectionWrapper.ReaderConnectionServiceState : Swift.Equatable {}
+extension ReaderConnectionWrapper.ReaderConnectionServiceState : Swift.Hashable {}

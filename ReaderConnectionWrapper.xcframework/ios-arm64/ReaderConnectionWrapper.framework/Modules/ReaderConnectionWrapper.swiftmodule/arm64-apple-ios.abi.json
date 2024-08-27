@@ -1,0 +1,4037 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCardReaderBatteryStatus",
+        "printedName": "SmartCardReaderBatteryStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type) -> ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderBatteryStatus",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO3lowyA2CmF",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA13BatteryStatusO3lowyA2CmF",
+            "moduleName": "ReaderConnectionWrapper"
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type) -> ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderBatteryStatus",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO4highyA2CmF",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA13BatteryStatusO4highyA2CmF",
+            "moduleName": "ReaderConnectionWrapper"
+          },
+          {
+            "kind": "Var",
+            "name": "specific",
+            "printedName": "specific",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type) -> (Swift.Double) -> ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(percentage: Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO8specificyACSd_tcACmF",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA13BatteryStatusO8specificyACSd_tcACmF",
+            "moduleName": "ReaderConnectionWrapper"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO",
+        "mangledName": "$s23ReaderConnectionWrapper09SmartCardA13BatteryStatusO",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReaderConnectionServiceState",
+        "printedName": "ReaderConnectionServiceState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.ReaderConnectionServiceState.Type) -> ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceState",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                        "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO5readyyA2CmF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO5readyyA2CmF",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inactive",
+            "printedName": "inactive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.ReaderConnectionServiceState.Type) -> ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceState",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                        "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO8inactiveyA2CmF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO8inactiveyA2CmF",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ReaderConnectionWrapper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO9hashValueSivp",
+            "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO9hashValueSivp",
+            "moduleName": "ReaderConnectionWrapper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO9hashValueSivg",
+                "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO9hashValueSivg",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO",
+        "mangledName": "$s23ReaderConnectionWrapper0aB12ServiceStateO",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReaderConnectionServiceDelegate",
+        "printedName": "ReaderConnectionServiceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didConnect",
+            "printedName": "didConnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP10didConnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP10didConnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP13didDisconnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP13didDisconnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdate",
+            "printedName": "didUpdate(service:state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceProtocol",
+                "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceProtocol",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP9didUpdate7service5stateyAA0abD8Protocol_p_AA0abD5StateOtF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP9didUpdate7service5stateyAA0abD8Protocol_p_AA0abD5StateOtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didPairWith",
+            "printedName": "didPairWith(reader:connected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP11didPairWith6reader9connectedyAA09SmartCardA8Protocol_p_SbtF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP11didPairWith6reader9connectedyAA09SmartCardA8Protocol_p_SbtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscover",
+            "printedName": "didDiscover(newReader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP11didDiscover03newA0yAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP11didDiscover03newA0yAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscover",
+            "printedName": "didDiscover(knownReader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP11didDiscover05knownA0yAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP11didDiscover05knownA0yAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdate",
+            "printedName": "didUpdate(knownReaders:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderProtocol",
+                    "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP9didUpdate12knownReadersySayAA09SmartCardA8Protocol_pG_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP9didUpdate12knownReadersySayAA09SmartCardA8Protocol_pG_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didInsertCard",
+            "printedName": "didInsertCard(connection:on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProvidingCardConnection",
+                "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP13didInsertCard10connection2ony0hbC009ProvidinghB0_p_AA05SmarthA8Protocol_ptF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP13didInsertCard10connection2ony0hbC009ProvidinghB0_p_AA05SmarthA8Protocol_ptF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRemoveCard",
+            "printedName": "didRemoveCard(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP13didRemoveCard2onyAA05SmarthA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP13didRemoveCard2onyAA05SmarthA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didConnect",
+            "printedName": "didConnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE10didConnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE10didConnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didDisconnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didDisconnect6readeryAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdate",
+            "printedName": "didUpdate(service:state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceProtocol",
+                "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceProtocol",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE9didUpdate7service5stateyAA0abD8Protocol_p_AA0abD5StateOtF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE9didUpdate7service5stateyAA0abD8Protocol_p_AA0abD5StateOtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didPairWith",
+            "printedName": "didPairWith(reader:connected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didPairWith6reader9connectedyAA09SmartCardA8Protocol_p_SbtF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didPairWith6reader9connectedyAA09SmartCardA8Protocol_p_SbtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscover",
+            "printedName": "didDiscover(newReader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didDiscover03newA0yAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didDiscover03newA0yAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscover",
+            "printedName": "didDiscover(knownReader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didDiscover05knownA0yAA09SmartCardA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE11didDiscover05knownA0yAA09SmartCardA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdate",
+            "printedName": "didUpdate(knownReaders:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderProtocol",
+                    "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE9didUpdate12knownReadersySayAA09SmartCardA8Protocol_pG_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE9didUpdate12knownReadersySayAA09SmartCardA8Protocol_pG_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didInsertCard",
+            "printedName": "didInsertCard(connection:on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProvidingCardConnection",
+                "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didInsertCard10connection2ony0hbC009ProvidinghB0_p_AA05SmarthA8Protocol_ptF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didInsertCard10connection2ony0hbC009ProvidinghB0_p_AA05SmarthA8Protocol_ptF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRemoveCard",
+            "printedName": "didRemoveCard(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didRemoveCard2onyAA05SmarthA8Protocol_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegatePAAE13didRemoveCard2onyAA05SmarthA8Protocol_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP",
+        "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceDelegateP",
+        "moduleName": "ReaderConnectionWrapper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpecificReaderConnectionServiceProtocol",
+        "printedName": "SpecificReaderConnectionServiceProtocol",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "ReaderImplementation",
+            "printedName": "ReaderImplementation",
+            "declKind": "AssociatedType",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP0A14ImplementationQa",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP0A14ImplementationQa",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP5stateAA0abE5StateOvp",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP5stateAA0abE5StateOvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP5stateAA0abE5StateOvg",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP5stateAA0abE5StateOvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ReaderImplementation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP7connect6readery0A14ImplementationQz_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP7connect6readery0A14ImplementationQz_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ReaderImplementation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP10disconnect6readery0A14ImplementationQz_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP10disconnect6readery0A14ImplementationQz_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ReaderImplementation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP4pair6readery0A14ImplementationQz_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP4pair6readery0A14ImplementationQz_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpair",
+            "printedName": "unpair(reader:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ReaderImplementation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP6unpair6reader12onCompletiony0A14ImplementationQz_yycSgtF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP6unpair6reader12onCompletiony0A14ImplementationQz_yycSgtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE7connect6readeryAA09SmartCardaF0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE7connect6readeryAA09SmartCardaF0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE10disconnect6readeryAA09SmartCardaF0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE10disconnect6readeryAA09SmartCardaF0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE4pair6readeryAA09SmartCardaF0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE4pair6readeryAA09SmartCardaF0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpair",
+            "printedName": "unpair(reader:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE6unpair6reader12onCompletionyAA09SmartCardaF0_p_yycSgtF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolPAAE6unpair6reader12onCompletionyAA09SmartCardaF0_p_yycSgtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP",
+        "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP",
+        "moduleName": "ReaderConnectionWrapper",
+        "genericSig": "<τ_0_0 : ReaderConnectionWrapper.Manufactured, τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol, τ_0_0.ReaderImplementation : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+        "sugared_genericSig": "<Self : ReaderConnectionWrapper.Manufactured, Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol, Self.ReaderImplementation : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReaderConnectionServiceProtocol",
+            "printedName": "ReaderConnectionServiceProtocol",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReaderConnectionServiceProtocol",
+        "printedName": "ReaderConnectionServiceProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceDelegate",
+                    "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                    "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvp",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvg",
+                "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvs",
+                "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvs",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvM",
+                "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP8delegateAA0abD8Delegate_pSgvM",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "knownReaders",
+            "printedName": "knownReaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderProtocol",
+                    "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP12knownReadersSayAA09SmartCardaE0_pGvp",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP12knownReadersSayAA09SmartCardaE0_pGvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderProtocol",
+                        "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP12knownReadersSayAA09SmartCardaE0_pGvg",
+                "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP12knownReadersSayAA09SmartCardaE0_pGvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP7connect6readeryAA09SmartCardaE0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP7connect6readeryAA09SmartCardaE0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP10disconnect6readeryAA09SmartCardaE0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP10disconnect6readeryAA09SmartCardaE0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP4pair6readeryAA09SmartCardaE0_p_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP4pair6readeryAA09SmartCardaE0_p_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpair",
+            "printedName": "unpair(reader:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCardReaderProtocol",
+                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP6unpair6reader12onCompletionyAA09SmartCardaE0_p_yycSgtF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP6unpair6reader12onCompletionyAA09SmartCardaE0_p_yycSgtF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForPairing",
+            "printedName": "scanReadersForPairing(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP21scanReadersForPairing12untilStoppedySb_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP21scanReadersForPairing12untilStoppedySb_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForConnecting",
+            "printedName": "scanReadersForConnecting(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP24scanReadersForConnecting12untilStoppedySb_tF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP24scanReadersForConnecting12untilStoppedySb_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP12stopScanningyyF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP12stopScanningyyF",
+            "moduleName": "ReaderConnectionWrapper",
+            "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.ReaderConnectionServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP",
+        "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP",
+        "moduleName": "ReaderConnectionWrapper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Manufactured",
+        "printedName": "Manufactured",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manufacturer",
+            "printedName": "manufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP12manufacturerSSvp",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP12manufacturerSSvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper12ManufacturedP12manufacturerSSvg",
+                "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP12manufacturerSSvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.Manufactured>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.Manufactured>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+        "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReaderConnectionState",
+        "printedName": "ReaderConnectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.ReaderConnectionState.Type) -> ((any CardConnectionWrapper.ProvidingCardConnection)?) -> ReaderConnectionWrapper.ReaderConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any CardConnectionWrapper.ProvidingCardConnection)?) -> ReaderConnectionWrapper.ReaderConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionState",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                        "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(cardConnectionProvider: (any CardConnectionWrapper.ProvidingCardConnection)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any CardConnectionWrapper.ProvidingCardConnection)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProvidingCardConnection",
+                                "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                                "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionState",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                        "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper0aB5StateO9connectedyAC04CardbC009ProvidingfB0_pSg_tcACmF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB5StateO9connectedyAC04CardbC009ProvidingfB0_pSg_tcACmF",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReaderConnectionWrapper.ReaderConnectionState.Type) -> ReaderConnectionWrapper.ReaderConnectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionState",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                        "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23ReaderConnectionWrapper0aB5StateO12disconnectedyA2CmF",
+            "mangledName": "$s23ReaderConnectionWrapper0aB5StateO12disconnectedyA2CmF",
+            "moduleName": "ReaderConnectionWrapper"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23ReaderConnectionWrapper0aB5StateO",
+        "mangledName": "$s23ReaderConnectionWrapper0aB5StateO",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpecificReaderConnectionServiceBase",
+        "printedName": "SpecificReaderConnectionServiceBase",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ServiceEvent",
+            "printedName": "ServiceEvent",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "noReaderConnectedWhileDisconnecting",
+                "printedName": "noReaderConnectedWhileDisconnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO02noA27ConnectedWhileDisconnectingyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO02noA27ConnectedWhileDisconnectingyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "readerIsNotConnectedWhileDisconnecting",
+                "printedName": "readerIsNotConnectedWhileDisconnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO38readerIsNotConnectedWhileDisconnectingyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO38readerIsNotConnectedWhileDisconnectingyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnecting",
+                "printedName": "disconnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO13disconnectingyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO13disconnectingyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnectingBeforeConnecting",
+                "printedName": "disconnectingBeforeConnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol, any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol, any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(currentlyConnected: any ReaderConnectionWrapper.SmartCardReaderProtocol, newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SmartCardReaderProtocol",
+                                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SmartCardReaderProtocol",
+                                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO29disconnectingBeforeConnectingyAeA09SmartCardA8Protocol_p_AaG_ptcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO29disconnectingBeforeConnectingyAeA09SmartCardA8Protocol_p_AaG_ptcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnectingBeforePairing",
+                "printedName": "disconnectingBeforePairing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol, any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol, any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(currentlyConnected: any ReaderConnectionWrapper.SmartCardReaderProtocol, newReader: any ReaderConnectionWrapper.SmartCardReaderProtocol)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SmartCardReaderProtocol",
+                                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SmartCardReaderProtocol",
+                                "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO26disconnectingBeforePairingyAeA09SmartCardA8Protocol_p_AaG_ptcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO26disconnectingBeforePairingyAeA09SmartCardA8Protocol_p_AaG_ptcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "connectionAttempt",
+                "printedName": "connectionAttempt",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO17connectionAttemptyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO17connectionAttemptyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "pairingAttempt",
+                "printedName": "pairingAttempt",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO14pairingAttemptyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO14pairingAttemptyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "unpairReaderNotKnown",
+                "printedName": "unpairReaderNotKnown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO06unpairA8NotKnownyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO06unpairA8NotKnownyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "unpairing",
+                "printedName": "unpairing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO9unpairingyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO9unpairingyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "stopScanningNotAvailableWhileInactive",
+                "printedName": "stopScanningNotAvailableWhileInactive",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO37stopScanningNotAvailableWhileInactiveyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO37stopScanningNotAvailableWhileInactiveyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "stoppingScanning",
+                "printedName": "stoppingScanning",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO16stoppingScanningyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO16stoppingScanningyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "scanningAlreadyInProgress",
+                "printedName": "scanningAlreadyInProgress",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO25scanningAlreadyInProgressyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO25scanningAlreadyInProgressyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "scanningForPairing",
+                "printedName": "scanningForPairing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO18scanningForPairingyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO18scanningForPairingyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "scanningForConnecting",
+                "printedName": "scanningForConnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEvent",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO21scanningForConnectingyA2EmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO21scanningForConnectingyA2EmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "cardRemovedFrom",
+                "printedName": "cardRemovedFrom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO15cardRemovedFromyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO15cardRemovedFromyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "cardInsertedOn",
+                "printedName": "cardInsertedOn",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO14cardInsertedOnyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO14cardInsertedOnyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "discoveredNew",
+                "printedName": "discoveredNew",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO13discoveredNewyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO13discoveredNewyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "discoveredKnown",
+                "printedName": "discoveredKnown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO15discoveredKnownyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO15discoveredKnownyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnected",
+                "printedName": "disconnected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO12disconnectedyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO12disconnectedyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "pairedWith",
+                "printedName": "pairedWith",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO10pairedWithyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO10pairedWithyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "connectedTo",
+                "printedName": "connectedTo",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type) -> (any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any ReaderConnectionWrapper.SmartCardReaderProtocol) -> ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SmartCardReaderProtocol",
+                            "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
+                            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServiceEvent",
+                            "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11connectedToyAeA09SmartCardA8Protocol_pcAEmF",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11connectedToyAeA09SmartCardA8Protocol_pcAEmF",
+                "moduleName": "ReaderConnectionWrapper"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11descriptionSSvp",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11descriptionSSvp",
+                "moduleName": "ReaderConnectionWrapper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11descriptionSSvg",
+                    "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO11descriptionSSvg",
+                    "moduleName": "ReaderConnectionWrapper",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manufacturer",
+            "printedName": "manufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvp",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvg",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvs",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvs",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvM",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerSSvM",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceQueue",
+            "printedName": "serviceQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvs",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvs",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvM",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12serviceQueueSo17OS_dispatch_queueCvM",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "centralService",
+            "printedName": "centralService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvp",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvg",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvs",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvs",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvM",
+                "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC07centralE0So16CBCentralManagerCvM",
+                "moduleName": "ReaderConnectionWrapper",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manufacturer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpecificReaderConnectionServiceBase",
+                "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase",
+                "usr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerACSS_tcfc",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC12manufacturerACSS_tcfc",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC3logyySSF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC3logyySSF",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServiceEvent",
+                "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase.ServiceEvent",
+                "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC0E5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC3log5eventyAC0E5EventO_tF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC3log5eventyAC0E5EventO_tF",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCentralManagerPoweredOn",
+            "printedName": "onCentralManagerPoweredOn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC25onCentralManagerPoweredOnyyF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC25onCentralManagerPoweredOnyyF",
+            "moduleName": "ReaderConnectionWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCentralManagerPoweredOff",
+            "printedName": "onCentralManagerPoweredOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB11ServiceBaseC26onCentralManagerPoweredOffyyF",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC26onCentralManagerPoweredOffyyF",
+            "moduleName": "ReaderConnectionWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpecificReaderConnectionServiceBase",
+                "printedName": "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase",
+                "usr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase(im)init",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseCACycfc",
+            "moduleName": "ReaderConnectionWrapper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManagerDidUpdateState",
+            "printedName": "centralManagerDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase(im)centralManagerDidUpdateState:",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC28centralManagerDidUpdateStateyySo09CBCentralH0CF",
+            "moduleName": "ReaderConnectionWrapper",
+            "objc_name": "centralManagerDidUpdateState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase",
+        "mangledName": "$s23ReaderConnectionWrapper08SpecificaB11ServiceBaseC",
+        "moduleName": "ReaderConnectionWrapper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCardReaderProtocol",
+        "printedName": "SmartCardReaderProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvs",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvs",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvM",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP4nameSSvM",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP5modelSSvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP5modelSSvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP5modelSSvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP5modelSSvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastSeen",
+            "printedName": "lastSeen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP8lastSeen10Foundation4DateVvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP8lastSeen10Foundation4DateVvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP8lastSeen10Foundation4DateVvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP8lastSeen10Foundation4DateVvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryStatus",
+            "printedName": "batteryStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderBatteryStatus",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP13batteryStatusAA0dea7BatteryH0OSgvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP13batteryStatusAA0dea7BatteryH0OSgvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP13batteryStatusAA0dea7BatteryH0OSgvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP13batteryStatusAA0dea7BatteryH0OSgvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP5stateAA0aB5StateOvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP5stateAA0aB5StateOvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP5stateAA0aB5StateOvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP5stateAA0aB5StateOvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardConnectionProvider",
+            "printedName": "cardConnectionProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CardConnectionWrapper.ProvidingCardConnection)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProvidingCardConnection",
+                    "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                    "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE04cardB8Provider0ebC009ProvidingeB0_pSgvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE04cardB8Provider0ebC009ProvidingeB0_pSgvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CardConnectionWrapper.ProvidingCardConnection)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProvidingCardConnection",
+                        "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                        "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE04cardB8Provider0ebC009ProvidingeB0_pSgvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE04cardB8Provider0ebC009ProvidingeB0_pSgvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isConnected",
+            "printedName": "isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11isConnectedSbvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11isConnectedSbvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11isConnectedSbvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11isConnectedSbvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11descriptionSSvp",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11descriptionSSvp",
+            "moduleName": "ReaderConnectionWrapper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11descriptionSSvg",
+                "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolPAAE11descriptionSSvg",
+                "moduleName": "ReaderConnectionWrapper",
+                "genericSig": "<τ_0_0 where τ_0_0 : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "sugared_genericSig": "<Self where Self : ReaderConnectionWrapper.SmartCardReaderProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP",
+        "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP",
+        "moduleName": "ReaderConnectionWrapper",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : ReaderConnectionWrapper.Manufactured, τ_0_0 : Swift.CustomStringConvertible>",
+        "sugared_genericSig": "<Self : AnyObject, Self : ReaderConnectionWrapper.Manufactured, Self : Swift.CustomStringConvertible>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ReaderConnectionWrapper"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ReaderConnectionWrapper\/SpecificReaderConnectionServiceBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ReaderConnectionWrapper\/SpecificReaderConnectionServiceBase.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 35,
+      "value": "\"ReaderConnectionWrapper.SpecificReaderConnectionServiceBase\""
+    }
+  ]
+}
