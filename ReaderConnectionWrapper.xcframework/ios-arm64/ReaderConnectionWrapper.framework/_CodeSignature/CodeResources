@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u7Lzg3FXQT9n0nKGw5rArmtmNsI=
+		je9lJpo+goYNYWofz2FCpf96kIA=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8u2aOTCI5oDbA47r2z4iO/kgnDs=
+		/EdC4AgmgkSa9D3BG+jUzDPlkPQ=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hocRmkf52AUwsx19WbkXooFgfzQ=
+		YXn3pyr1q+SV1PSjg39xNuYZBsQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFipGKdlte3TQw6zCsrmYfQSUclIGiLzfGz1a5sGuVg=
+			BbN94NazJUSDwXKjwmjeCapm+qD7wuAAVWJpdh8fpBo=
 			</data>
 		</dict>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwCUt+omKGzdMdPiIDf0H3F19h2+hYFvZcYC39rjchw=
+			qZIqNe6Dvcw6E1lQq35SQUL10tRN97VvqanvM2ojNgI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
