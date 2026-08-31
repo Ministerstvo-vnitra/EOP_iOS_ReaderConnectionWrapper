@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ReaderConnectionWrapper-Swift.h</key>
 		<data>
-		8UJy2KEX/FAUnK0lLxBkeBnJBvI=
+		qbyQquZDI4gbbUSkPqYsP+7A+V8=
 		</data>
 		<key>Headers/ReaderConnectionWrapper.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		je9lJpo+goYNYWofz2FCpf96kIA=
+		N4hoePzMXZNZ5AILf7MJ+1tynYU=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/EdC4AgmgkSa9D3BG+jUzDPlkPQ=
+		xnKJhuKREBQF1F2iFqTSlKWSOcM=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		nWCAz0K2tMXADdzKTmaXzy9lEOw=
+		KUAa8Rd+SYKuR93QkD75qtMAf74=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hUPqS03elXCmEXBCoq3KDixdJ9U=
+		ZmwhJDtFqXkN8Q5CEOoH1WrjM5E=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nWCAz0K2tMXADdzKTmaXzy9lEOw=
+		KUAa8Rd+SYKuR93QkD75qtMAf74=
 		</data>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YXn3pyr1q+SV1PSjg39xNuYZBsQ=
+		Ib2de40XLVVd40BWYVGegxyC3jo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0utvukY7MdC4cpNcqXNiZ7aC2Jd6vm9ksn4XE4Vh/n4=
+			m/ex5Jhy25I6TFoB/13z3Rgx9f0xLx6yM5nEw1X1HbY=
 			</data>
 		</dict>
 		<key>Headers/ReaderConnectionWrapper.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbN94NazJUSDwXKjwmjeCapm+qD7wuAAVWJpdh8fpBo=
+			zZISkQbQy7U28OSjiB8y4kfeAVhtw0siowsVU+LF818=
 			</data>
 		</dict>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CGckub+1EgPTT6aj8Ins0RWnYa4RlSiynYAUS5iu5L0=
+			Lq/KalLvM+vTdxzqByCbJBCqlv/yr/KjAf1cngr77Ng=
 			</data>
 		</dict>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uQIW6B+AoAOT6ytkwPPJ1xANIjEDefHiMYRRhvLw/8=
+			9HMqrZsqYB6WnesnL0LD4NSXS/ZqqYJTHgg1LljaQHY=
 			</data>
 		</dict>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CGckub+1EgPTT6aj8Ins0RWnYa4RlSiynYAUS5iu5L0=
+			Lq/KalLvM+vTdxzqByCbJBCqlv/yr/KjAf1cngr77Ng=
 			</data>
 		</dict>
 		<key>Modules/ReaderConnectionWrapper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZIqNe6Dvcw6E1lQq35SQUL10tRN97VvqanvM2ojNgI=
+			FgQS2zE+4qOpKNRKYviMuMqazreGo02FqNgsflQ6M9M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

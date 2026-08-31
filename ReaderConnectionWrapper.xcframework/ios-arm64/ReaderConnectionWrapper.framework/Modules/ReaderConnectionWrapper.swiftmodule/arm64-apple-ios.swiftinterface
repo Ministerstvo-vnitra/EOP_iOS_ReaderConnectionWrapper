@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ReaderConnectionWrapper
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ReaderConnectionWrapper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CardConnectionWrapper
 import CoreBluetooth
 import Foundation
@@ -51,21 +52,29 @@ public protocol SpecificReaderConnectionServiceProtocol : ReaderConnectionWrappe
   func connect(reader: Self.ReaderImplementation)
   func disconnect(reader: Self.ReaderImplementation)
   func pair(reader: Self.ReaderImplementation)
+  #if compiler(>=5.3) && $NonescapableTypes
   func unpair(reader: Self.ReaderImplementation, onCompletion: (() -> Swift.Void)?)
+  #endif
 }
 extension ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol {
   public func connect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
   public func disconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
   public func pair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func unpair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, onCompletion: (() -> Swift.Void)?)
+  #endif
 }
 public protocol ReaderConnectionServiceProtocol : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)? { get set }
+  #endif
   var knownReaders: [any ReaderConnectionWrapper.SmartCardReaderProtocol] { get }
   func connect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
   func disconnect(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
   func pair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol)
+  #if compiler(>=5.3) && $NonescapableTypes
   func unpair(reader: any ReaderConnectionWrapper.SmartCardReaderProtocol, onCompletion: (() -> Swift.Void)?)
+  #endif
   func scanReadersForPairing(untilStopped: Swift.Bool)
   func scanReadersForConnecting(untilStopped: Swift.Bool)
   func stopScanning()
@@ -124,13 +133,17 @@ public protocol SmartCardReaderProtocol : AnyObject, ReaderConnectionWrapper.Man
   var name: Swift.String { get set }
   var model: Swift.String { get }
   var lastSeen: Foundation.Date { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var batteryStatus: ReaderConnectionWrapper.SmartCardReaderBatteryStatus? { get }
+  #endif
   var state: ReaderConnectionWrapper.ReaderConnectionState { get }
 }
 extension ReaderConnectionWrapper.SmartCardReaderProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var cardConnectionProvider: (any CardConnectionWrapper.ProvidingCardConnection)? {
     get
   }
+  #endif
   public var isConnected: Swift.Bool {
     get
   }
